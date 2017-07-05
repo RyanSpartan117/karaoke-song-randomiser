@@ -1,4 +1,6 @@
-
+body {
+  font-style:Verdana;
+}
 #wrapper {
 
   height: 100vh;
@@ -10,7 +12,7 @@
   margin: auto;
   margin-top: 150px;
   height:100px;
-  width:80%;
+  width:90%;
   font-size: 50px;
 
 }
@@ -34,7 +36,6 @@
   margin: auto;
   text-align: center;
   display: inline-block;
-  vertical-align: middle;
   height:50px;
   width:200px;
   border: dashed 2px;
@@ -45,6 +46,6 @@
   text-align: center;
   height:50px;
   width: 60%;
-  font-size:20px;
+  font-size:30px;
   display:inline-block;
 }
