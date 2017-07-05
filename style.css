@@ -1,0 +1,50 @@
+
+#wrapper {
+
+  height: 100vh;
+  width: 100vw;
+
+}
+#title {
+
+  margin: auto;
+  margin-top: 150px;
+  height:100px;
+  width:80%;
+  font-size: 50px;
+
+}
+
+
+
+#you {
+
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+#bottom-wrapper {
+  margin:auto;
+  height: 300px;
+  width:80%;
+
+}
+#random-song {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  height:50px;
+  width:200px;
+  border: dashed 2px;
+}
+
+#text-display {
+  margin: auto;
+  text-align: center;
+  height:50px;
+  width: 60%;
+  font-size:20px;
+  display:inline-block;
+}
