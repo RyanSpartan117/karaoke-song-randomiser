@@ -4,46 +4,6 @@ function randomize() {
 
   let randomButton = $("#random-song");
   let displaySong = $("#text-display");
-  let reader = new FileReader();
-
-  reader.onload = function(e) {
-    let text = reader.result;
-  }
-
-  // show = reader.readAsText("newcsv.csv");
-  // console.log(show);
-  // csvArray = Papa.parse('karafuncatalog.csv', Papa.config);
-  // console.log(csvArray)
-
-  // csvArray = ("karafuncatalog.csv");
-  // csvArray = ();
-
-
-  // console.log(csvArray);
-
-//   function readTextFile(file)
-// {
-//     var rawFile = new XMLHttpRequest();
-//     rawFile.open("GET", file, false);
-//     rawFile.onreadystatechange = function ()
-//     {
-//         if(rawFile.readyState === 4)
-//         {
-//             if(rawFile.status === 200 || rawFile.status == 0)
-//             {
-//                 var allText = rawFile.responseText;
-//                 alert(allText);
-//             }
-//         }
-//     }
-//     rawFile.send(null);
-// }
-
-// hi = readTextFile("newcsv.csv");
-
-// hello = hi.split("\n");
-// console.log(hello)
-
 
   randomButton.click(function(e) {
 
